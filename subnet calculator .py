@@ -1,0 +1,1 @@
+import sys;print(sum(bin(int(x)).count('1') for x in sys.argv [1] .split('.'))) 
