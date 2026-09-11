@@ -1,8 +1,8 @@
 def port_scanner_code():
 
-    import socket
+    import socket # socket module enables the connections
 
-    target ="192.168.1.1"
+    ip = input("Enter ip address:  ")
 
     ports = [80, 443, 22, 21]
 
@@ -12,7 +12,7 @@ def port_scanner_code():
 
         sock.settimeout(0.5)
 
-        result = sock.connect_ex((target, port))
+        result = sock.connect_ex((ip ,  port))
 
         if result == 0:
 
