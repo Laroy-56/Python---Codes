@@ -1,4 +1,4 @@
-def new_user_code():
+def new_user_code(): # The def function enables us to store lines of code and call them out if the code will be re-used multiple times
         
         users = ["David", "Davis", "Darrell", "Leon", "Shannel", "Kimberly", "Tasha"]
 
