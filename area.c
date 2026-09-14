@@ -15,12 +15,12 @@ int main(){
     float area = PI * radius * radius;
 
 
-    printf("area = \n %f" , area);
+    printf("area = %f\n" , area);
 
     float perimeter = 2 * PI * radius * radius ;
 
 
-    printf("perimeter = \n %f" , perimeter);
+    printf("perimeter = %f\n" , perimeter);
 
 
     return 0;
