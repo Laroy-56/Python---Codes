@@ -2,7 +2,7 @@ import subprocess
 
 try :
 
-    end = subprocess.run(["ifconfg"] , capture_output = True , text = True)
+    end = subprocess.run(["ifconfig"] , capture_output = True , text = True)
 
     print(end.stdout)
 
