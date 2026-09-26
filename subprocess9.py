@@ -4,7 +4,7 @@ command = input("Enter Command:    ")
 
 try :
 
-    output = subprocess.run([command] , shell = True , capture_output = True , text = True)
+    output = subprocess.run([command] , capture_output = True , text = True)
 
     print("Output")
 
